@@ -28,10 +28,10 @@
 import {
   Platform,
   StyleSheet,
-  View,
-  ViewPropTypes,
+  View
 } from 'react-native';
 import React from 'react';
+import { ViewPropTypes } from 'deprecated-react-native-prop-types';
 
 const NavigatorBreadcrumbNavigationBarStyles = require('./NavigatorBreadcrumbNavigationBarStyles');
 const NavigatorNavigationBarStylesAndroid = require('./NavigatorNavigationBarStylesAndroid');
